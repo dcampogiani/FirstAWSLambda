@@ -10,3 +10,6 @@
 - App is the entry point, it's implementing RequestHandler, this way the method handleRequest will be invoked by AWS
 - RequestHandler is using HandlerInput as input and HandlerOutput as output, both are dummy classes with a String inside
 - Inside handleRequest there is our *"logic"*
+
+[Here](https://github.com/dcampogiani/FirstAWSLambdaMicronaut) you can find the same lambda using [Micronaut](https://micronaut.io/)
+
